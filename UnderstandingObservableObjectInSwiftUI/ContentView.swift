@@ -9,8 +9,14 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @ObservedObject var fancyTimer = FancyTimer()
+    
     var body: some View {
-        Text("Hello World")
+        
+        Text("Timer started: \(self.fancyTimer.value)")
+            .font(.largeTitle)
+        
     }
 }
 

@@ -13,6 +13,7 @@
 		958A3C98233DF0CE0031C6B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 958A3C97233DF0CE0031C6B0 /* Assets.xcassets */; };
 		958A3C9B233DF0CE0031C6B0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 958A3C9A233DF0CE0031C6B0 /* Preview Assets.xcassets */; };
 		958A3C9E233DF0CE0031C6B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 958A3C9C233DF0CE0031C6B0 /* LaunchScreen.storyboard */; };
+		958A3CA6233DF1050031C6B0 /* FancyTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958A3CA5233DF1050031C6B0 /* FancyTimer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		958A3C9A233DF0CE0031C6B0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		958A3C9D233DF0CE0031C6B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		958A3C9F233DF0CE0031C6B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		958A3CA5233DF1050031C6B0 /* FancyTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyTimer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				958A3C91233DF0CB0031C6B0 /* AppDelegate.swift */,
 				958A3C93233DF0CB0031C6B0 /* SceneDelegate.swift */,
 				958A3C95233DF0CB0031C6B0 /* ContentView.swift */,
+				958A3CA5233DF1050031C6B0 /* FancyTimer.swift */,
 				958A3C97233DF0CE0031C6B0 /* Assets.xcassets */,
 				958A3C9C233DF0CE0031C6B0 /* LaunchScreen.storyboard */,
 				958A3C9F233DF0CE0031C6B0 /* Info.plist */,
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				958A3C92233DF0CB0031C6B0 /* AppDelegate.swift in Sources */,
+				958A3CA6233DF1050031C6B0 /* FancyTimer.swift in Sources */,
 				958A3C94233DF0CB0031C6B0 /* SceneDelegate.swift in Sources */,
 				958A3C96233DF0CB0031C6B0 /* ContentView.swift in Sources */,
 			);
